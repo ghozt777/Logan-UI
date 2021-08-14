@@ -12,9 +12,22 @@
 img{
     height: 40px;
 }
+
+.sidebar_item > button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.sidebar_item > button > img{
+    height: 20px;
+}
+
 a{
     font-size: 13px; 
-    color:white;
+    color:black;
     text-decoration: none;
     font-family: var(--txt-font-secondary);  
     font-weight: bold;
@@ -36,12 +49,8 @@ a{
     font-size: 10px;
 }
 .sidebar_item > button:hover{
-    background-color: #F9FAFB;
+    background-color: #DBEAFE;
 }
-.sidebar_item > button:hover a{
-    color: black;
-}
-
 .code_snippet{
     width: 100%;
     display: flex;
@@ -63,6 +72,8 @@ a{
     box-shadow: 0 8px 6px -2px #E5E7EB;
 }
 .code{
+    border-radius: 1rem ;;
+    overflow-x:  scroll;
     margin-top: 2rem; 
     margin-left: 1.2rem; 
     width: 741px; 

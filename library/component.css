@@ -63,9 +63,9 @@ body{
 .sidebar{
     padding: var(--padding-sm);
     border-style: none;
-    background-color: #1F2937;
+    background-color: #F3F4F6;
     border-radius: 1rem;
-    box-shadow: 0 8px 6px -2px #6B7280;
+    box-shadow: 0 8px 6px -1px #6B7280;
 
 }
 .sidebar_item{
