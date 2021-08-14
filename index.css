@@ -1,0 +1,175 @@
+@import "../library/component.css";
+
+body{
+    width: 80%;
+    height: 100vh;
+    margin:auto;
+    font-family: var(--txt-font-primary);
+}
+
+.wrapper{
+    padding-top: var(--padding-lg);
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: var(--padding-md);
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #4B5563;
+}
+.image > a > img{
+    border-radius: 50%;
+    height: 60px;
+    padding-right: var(--padding-sm);
+    flex: 1;
+}
+.title{
+    flex:1;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links > button{
+    border-style: none;
+    padding: var(--padding-md);
+    box-shadow: 0 8px 6px -2px #DDD6FE; 
+}
+.links_title{
+    font-family: var(--txt-font-tertiary);
+    font-size: 10px;
+    font-weight: 600;
+}
+.content{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content .intro{
+    font-family: var(--txt-font-secondary);
+    padding-bottom: var(--padding-md);
+}
+.content .separator{
+    background-color: #DDD6FE;
+}
+.content .links{
+    height: 50%;
+    padding-top: var(--padding-md);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-md);
+}
+.link{
+    height: 60px;
+    border-style: none;
+    padding: var(--padding-sm);
+    border-radius: 0.8rem;
+    font-size: 20px;
+}
+.link > a{
+    text-decoration: none;
+    color: white;
+}
+.docs{
+    margin-right: var(--padding-md);
+    background-color: #1F2937;
+    transition: 150ms;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+.github{
+    background-color: #5B21B6;
+    transition: 150ms;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+.docs:hover{
+    background-color: #4B5563;
+    height: 70px;
+}
+.github:hover{
+    background-color: #8B5CF6;
+    height: 70px;
+}
+.socials .links > a > img{
+    height: 40px;
+    transition: 200ms;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+.socials .links > a > img:hover{
+    height: 50px;
+}
+.footer{
+    width: 80%;
+    margin-top: var(--padding-md);
+    margin-bottom: var(--padding-md);
+    padding: var(--padding-lg);
+    display:flex;
+    flex-direction: column;
+    border-style: none;
+    border-radius: 1rem;
+    background-color: #DDD6FE;
+}
+
+.footer .title{
+    font-family: var(--txt-font-secondary);
+    font-size: 10px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.separator{
+    width: 100%;
+    background-color: #D1D5DB;
+    padding-top: 0.1rem;
+}
+.socials .tag{
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--padding-sm);
+    padding-bottom: var(--padding-md);
+    color: #1F2937;
+}
+.tag .message{
+    font-size:25px; 
+    font-family: var(--txt-font-weird);
+
+}
+.tag .pick_up_line{
+        font-size:10px; 
+}
+.caps{
+    font-size: 5rem;
+    text-shadow: 4px 1px 1px #A78BFA,
+    4px 2px 1px #A78BFA,
+    4px 3px 1px #A78BFA,
+    4px 4px 1px #A78BFA
+    
+}
+.caps2{
+    font-size: 1rem;
+    font-weight:600;
+    text-shadow: 4px 1px 1px #DDD6FE,
+    4px 2px 1px #F472B6,
+    4px 3px 1px #F472B6,
+    4px 4px 1px #F472B6
+    
+}
+
+

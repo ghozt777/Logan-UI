@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./images/artist.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logan UI</title>
+    <link rel='stylesheet' href="./index.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="image">
+                <a href="#"><img src="./images/logo.png" alt="logo"></a>
+            </div>
+            <div class="title"> Logan UI </div>
+            <div class="links"> 
+                <a href="https://github.com/ghozt777"><img src="./images//github.svg" alt="github">
+                </a> 
+                <div class="links_title">by ghozt :) </div>
+            </div>        
+        </div>
+        <div class="content">
+            <div class="docs_link docs">
+                <a href="./docs.html"> Get Started </a>
+            </div>
+            <div class="docs_link github">
+                <a href="#"> GitHub </a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="footer">
+            <div class="title">
+                designed by a professional noob.
+            </div>
+            <div class="socials">
+                <div class="tag">
+                    <div class="message">
+                        follow me
+                    </div>
+                    <div class="pick_up_line">
+                        and maybe I'll follow u back :)
+                    </div>
+                </div> 
+                <div class="links">
+                    <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
+                    <small>@dontsleeponcustard</small>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </div>
+</body>
+</html>
+

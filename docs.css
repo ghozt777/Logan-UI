@@ -1,0 +1,62 @@
+@import "./library/component.css";
+
+.wrapper{
+    padding-right: var(--padding-lg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: relative;
+}
+
+img{
+    height: 40px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-family: var(--txt-font-secondary);
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sidebar_item > button{
+    height: 50px;
+    width: 100%;
+    border-style: solid;
+    border-color: #374151;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    transition: var(--speed);
+    transition-property: all;
+    font-size: 10px;
+}
+.sidebar_item > button:hover{
+    background-color: #F9FAFB;
+}
+.sidebar_item > button:hover a{
+    color: black;
+}
+
+.code_snippet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#import{
+    font-size: 13px;
+    padding:var(--padding-md);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-style: none;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    background-color: #F3F4F6;
+    box-shadow: 0 8px 6px -2px #E5E7EB;
+}
