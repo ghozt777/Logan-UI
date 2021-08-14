@@ -7,6 +7,7 @@
 body{
     background-color: #EFF6FF;
 }
+
 .wrapper{
     min-height: 100vh;
     width: 100vw;
@@ -17,50 +18,13 @@ body{
     overflow: hidden;
 }
 
-img{
-    height: 40px;
-}
-
-.sidebar_item > button{
-    padding: var(--padding-sm);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    cursor: pointer;
-}
-
-
-.sidebar_item > button > img{
-    height: 20px;
-}
-
-a{
-    font-size: 13px; 
-    color:black;
-    text-decoration: none;
-    font-family: var(--txt-font-secondary);  
-    font-weight: bold;
-}
 .content{
     width:100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.sidebar_item > button{
-    height: 50px;
-    width: 100%;
-    border-style: solid;
-    border-color: #374151;
-    background-color: transparent;
-    border-radius: 0.5rem;
-    transition: var(--speed);
-    transition-property: all;
-    font-size: 10px;
-}
-.sidebar_item > button:hover{
-    background-color: #DBEAFE;
-}
+
 .code_snippet{
     width: 100%;
     display: flex;
@@ -80,12 +44,14 @@ a{
     background-color: #F3F4F6;
     box-shadow: 0 8px 6px -2px #E5E7EB;
 }
+
 .code-snippet__container{
     width: 95%;
     height: max-content;
     overflow-x: auto;
     margin: 0.5rem 0;
 }
+
 .code{
     width: 100%; 
     padding: 0;
@@ -93,6 +59,7 @@ a{
     display: block;
     z-index: 1;
 }
+
 @media all and (max-width: 740px){
 
     .navbar{

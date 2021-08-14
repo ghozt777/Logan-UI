@@ -7,6 +7,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 :root{
+
+    /* color palatte */
+    --primary: #1F2937;
+    --primary-hover: #4B5563;
+    --secondary: #5B21B6;
+    --secondary-hover: #8B5CF6;
     
     /* padding styles */
     --padding-sm: 0.5rem;
@@ -29,48 +35,71 @@
     --speed-fast: 150ms;
 }
 
+/* -----------------------------Global Styles------------------------- */
 
 body{
     font-family: var(--txt-font-primary);
 }
 
-/* Button styles */
+/* --------------------------------------------------------------------- */
+
+/* ----------------anchor tag styles------------------------------------ */
+
+a{
+    font-size: 13px; 
+    color:black;
+    text-decoration: none;
+    font-family: var(--txt-font-secondary);  
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* ---------------Button styles----------------------------------------- */
 .btn{
     border-style: none;
     padding: var(--padding-md);
     color: white;
     box-shadow: 0 8px 6px -2px #DDD6FE; 
     height: 50px;
-    width: 100%;
+    width: 70px;
+    border-radius: 0.5rem;
 }
 
-.btn .primary{
+.btn-primary{
     margin-right: var(--padding-md);
-    background-color: #1F2937;
+    background-color: var(--primary);
     transition: var(--speed-fast);
     transition-property: all;
     transition-timing-function: ease-in;
 }
 
-.btn .secondary{
-    background-color: #5B21B6;
+.btn-secondary{
+    background-color: var(--secondary);
     transition: var(--speed-fast);
     transition-property: all;
     transition-timing-function: ease-in;
 }
 
-.btn .primary:hover{
-    background-color: #4B5563;
-    height: 70px;
+.btn-primary:hover{
+    background-color: var(--primary-hover);
 }
 
-.button .secondary:hover{
-    background-color: #8B5CF6;
-    height: 70px;
+.btn-secondary:hover{
+    background-color: var(--secondary-hover);
 }
 
+/* ---------------------------------------------------- */
 
+/* ----------------------image Logo Style-------------- */
 
+.img-logo {
+    height: 40px;
+}
+
+/* --------------------------------------------------- */
+
+/* -------------------NavBar Styles-------------------- */
 
 .navbar{
     width: 100%;
@@ -86,12 +115,19 @@ body{
 
 .nav_item{
     padding: var(--padding-md);
+    color: white;
 }
+
+/* ----------------------------------------------------- */
 
 .title{
     color:white;
     font-weight: bold;
 }
+
+
+/* --------------------SideBar---------------------------- */ 
+/* TIP: for optimal result use buttons inside of the sidebar  */
 
 .sidebar_container{
     z-index: 2;
@@ -111,3 +147,30 @@ body{
 .sidebar_item{
     padding: var(--padding-sm);
 }
+
+.sidebar_item > button{
+    padding: var(--padding-sm);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    border-style: solid;
+    border-color: #374151;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    transition: var(--speed-md);
+    transition-property: all;
+    font-size: 20px;
+}
+
+.sidebar_item > button:hover{
+    background-color: #DBEAFE;
+}
+
+.sidebar_item > button > img{
+    height: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
