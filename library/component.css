@@ -35,7 +35,7 @@ body{
 }
 
 /* Button styles */
-.button{
+.btn{
     border-style: none;
     padding: var(--padding-md);
     color: white;
@@ -44,7 +44,7 @@ body{
     width: 100%;
 }
 
-.button .primary{
+.btn .primary{
     margin-right: var(--padding-md);
     background-color: #1F2937;
     transition: var(--speed-fast);
@@ -52,14 +52,14 @@ body{
     transition-timing-function: ease-in;
 }
 
-.button .secondary{
+.btn .secondary{
     background-color: #5B21B6;
     transition: var(--speed-fast);
     transition-property: all;
     transition-timing-function: ease-in;
 }
 
-.button .primary:hover{
+.btn .primary:hover{
     background-color: #4B5563;
     height: 70px;
 }
