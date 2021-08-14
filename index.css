@@ -40,9 +40,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-.links > button{
+.links > a > button{
     border-style: none;
     padding: var(--padding-md);
+    color: white;
     box-shadow: 0 8px 6px -2px #DDD6FE; 
 }
 .links_title{
@@ -83,7 +84,6 @@ body{
 }
 .link > a{
     text-decoration: none;
-    color: white;
 }
 .docs{
     margin-right: var(--padding-md);
