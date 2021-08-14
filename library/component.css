@@ -148,7 +148,7 @@ a{
     padding: var(--padding-sm);
 }
 
-.sidebar_item > button{
+.sidebar_item > button{   /* buttons inside of the sidebar can be used to navigate */
     padding: var(--padding-sm);
     display: flex;
     justify-content: space-evenly;
@@ -169,8 +169,9 @@ a{
     background-color: #DBEAFE;
 }
 
-.sidebar_item > button > img{
+.sidebar_item > button > img{  /* this is for a logo if added beside the text */
     height: 20px;
 }
 
 /* ------------------------------------------------------------------------------------------------------- */
+
