@@ -20,9 +20,9 @@
     /* text styles */
     --txt-font-primary:'Open Sans', sans-serif;
     --txt-font-secondary:'IBM Plex Mono', monospace;
-    --txt-font-tertiary: 'Work Sans', sans-serif;
+    --txt-font-tertiary: 'Work Sans', sans-serif;  
     --txt-font-weird:'Monofett', cursive;
-    --txt-primary: #6366F1;
+    --txt-primary: #6366F1; 
 
     /* transition speed */
     --speed: 250ms;
