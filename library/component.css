@@ -33,6 +33,14 @@
     /* transition speed */
     --speed-md: 250ms;
     --speed-fast: 150ms;
+
+    /* avatar sizes */
+    --xs: 4rem;
+    --s: 6rem;
+    --md: 8rem;
+    --l: 11rem;
+    --xl: 13rem;
+
 }
 
 /* -----------------------------Global Styles------------------------- */
@@ -87,6 +95,24 @@ a{
 
 .btn-secondary:hover{
     background-color: var(--secondary-hover);
+}
+
+.caps{
+    font-size: 5rem;
+    text-shadow: 4px 1px 1px #A78BFA,
+    4px 2px 1px #A78BFA,
+    4px 3px 1px #A78BFA,
+    4px 4px 1px #A78BFA
+    
+}
+.caps2{
+    font-size: 1rem;
+    font-weight:600;
+    text-shadow: 4px 1px 1px #DDD6FE,
+    4px 2px 1px #F472B6,
+    4px 3px 1px #F472B6,
+    4px 4px 1px #F472B6
+    
 }
 
 /* ---------------------------------------------------- */
@@ -174,4 +200,59 @@ a{
 }
 
 /* ------------------------------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------avatar style ------------------*/
+.avatar__container{
+    position:relative;
+    width:max-content;
+    height: max-content;
+}
+
+.avatar-img{
+    border-radius: 50%;
+    height: 100%;
+}
+ 
+.active{
+    border: 5px solid #10B981;
+
+}
+
+.inactive{
+    border: 5px solid #9CA3AF;
+}
+
+.dnd{
+    border: 5px solid #F59E0B;
+}
+
+.avatar-xs > img{
+    width:var(--xs);
+    height: var(--xs);
+}
+
+.avatar-s > img{
+    width:var(--s);
+    height: var(--s);
+}
+
+.avatar-md > img{
+    width:var(--md);
+    height: var(--md);
+}
+
+.avatar-l > img{
+    width:var(--l);
+    height: var(--l);
+}
+
+.avatar-xl > img{
+    width:var(--xl);
+    height: var(--xl);
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+
 
