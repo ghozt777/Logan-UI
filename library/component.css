@@ -28,10 +28,7 @@
     --speed: 250ms;
 }
 body{
-    padding-right: var(--padding-sm);
-    height: 100%;
     font-family: var(--txt-font-primary);
-    position:realtive;
 }
 
 .navbar{
@@ -56,11 +53,13 @@ body{
 }
 
 .sidebar_container{
-    padding-left:var(--padding-sm);
-    margin-top: 1rem;
     z-index: 2;
+    margin: var(--padding-md);
 }
 .sidebar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding: var(--padding-sm);
     border-style: none;
     background-color: #F3F4F6;
@@ -69,5 +68,5 @@ body{
 
 }
 .sidebar_item{
-    padding-bottom: 0.3rem;
+    padding: var(--padding-sm);
 }
