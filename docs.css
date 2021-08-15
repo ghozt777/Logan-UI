@@ -43,15 +43,14 @@ body{
 }
 
 #import{
+    margin: var(--padding-md);
     font-size: 13px;
     padding:var(--padding-md);
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     border-style: none;
     border-radius: 1rem;
-    background-color: #F3F4F6;
-    box-shadow: 0 8px 6px -2px #E5E7EB;
+    background-color: #EDE9FE;
+    box-shadow: 0 8px 6px -2px #C4B5FD;
 }
 
 .code-snippet__container{
