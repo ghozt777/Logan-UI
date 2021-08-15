@@ -71,7 +71,7 @@ body{
 /*  page 2 starts here */
 
 #avatar-page{
-    height: 100vh;
+    height: max-content;
     width:80%;
     margin: auto;
     position: relative;
