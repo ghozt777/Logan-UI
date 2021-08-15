@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./docs.css">
 </head>
 <body>
-    <div id="wrapper">
+    <div id="import-page">
         <div class="navbar">
             <div class="nav_item logo">
                 <img class="img-logo" src="./images/figma-1.svg" alt="">
@@ -31,10 +31,10 @@
                         <a href="#avatar-page">avatar</a>
                     </button>
                 </div>
-                <div class="sidebar_item alert">
+                <div class="sidebar_item alrt">
                     <button>
                         <img src="./images/logo/exclamation.png" alt="">
-                        <a href="#">alert</a>
+                        <a href="#alert-page">alert</a>
                     </button>
                 </div>
                 <div class="sidebar_item button">
@@ -83,9 +83,9 @@
             </div>
                 <div class="code-snippet__container">
                     <iframe class="code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Flogan-ui.netlify.app%252Flibrary%252Fcomponent.css%2522%29%253B%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Flogan-ui.netlify.app%252Flibrary%252Fcomponent.css%2522%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=one-light&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Flogan-ui.netlify.app%252Flibrary%252Fcomponent.css%2522%29%253B%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Flogan-ui.netlify.app%252Flibrary%252Fcomponent.css%2522%253E"
                     sandbox="allow-scripts allow-same-origin">
-                </iframe> 
+                    </iframe> 
                 </div>
             </div>
             </div>  
@@ -95,13 +95,13 @@
         <div class="separator"></div>
 
         <!-- page 2 -->
-        <div id="avatar-page">
-            <h1><span class="caps">C</span> reate easy to use avatars to and use them to make clean  profile pictures</h1>
+        <div id="avatar-page" class="page">
+            <h1><span class="caps">C</span> reate easy to use avatars and use them to make clean  profile pictures</h1>
             <div class="top-btn">
-                <a href="#wrapper"><button class="btn btn-primary"> 🚀 </button></a>
+                <a href="#import-page"><button class="btn btn-primary"> 🚀 </button></a>
             </div>
             <div class="demo">
-                <div class="avatar-showcase__container">
+                <div class="showcase__container avatar">
                 <div class="avatar__container avatar-xs">
                     <img class = "avatar-img active" src="./images/logan-pual.jpg" alt="logan paul">
                 </div>
@@ -169,7 +169,95 @@
         </div>  
 
         <!-- alert page -->
+        <div class="separator"></div>
 
+        <div id="alert-page" class="page">
+            <div class="alert-page-content">
+
+                <div class="heading"><span class="caps">E</span> ffortlessly integrate alert messages into your project to quickly grab the user's attention </div>
+                <div class="top-btn">
+                    <a href="#import-page"><button class="btn btn-primary"> 🚀 </button></a>
+                </div>
+                <div class="demo">
+                    <div class="showcase__container alerts">
+
+                        <div class="neutral-env">
+                            <div class="alert">
+                                <div class="message"> default message </div>
+                            </div>
+                        </div>
+
+                        <div class="neutral-env">
+                            <div class="alert alert-warning">
+                                <img src="./images/logo/exclamation.png" alt="">
+                                <div class="message"> warning message </div>
+                            </div>
+                        </div>
+
+                        <div class="neutral-env">
+                            <div class="alert alert-success">
+                                <img src="./images/logo/check.png" alt="">
+                                <div class="message"> success message </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="description-avatar">
+
+                    <div class="txt">
+                        we offer <div class="highlight">three alert cards</div> that can be used to alert the user . You can also choose beteen adding a logo or not. To use it just create a <div class="syntax">div</div>  with a class of <div class="syntax">alert</div> and it will create an alert card with default styling. To display a warning alert you can use an <div class="syntax">alert</div> with extended class name of <div class="syntax">alert alert-warning</div> and to display a success alert use <div class="syntax">alert alert-success</div> .
+                    </div>
+
+                    <div class="code_snippet">
+                        <div id="card">
+                            <div class="description">
+                                code for: <div class="syntax">alert</div> with <span style="color: #001f3f;font-weight:bold;">default</span> styling
+                            </div> 
+                        </div>
+                        <div class="code-snippet__container">
+                            <iframe class="code"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2522%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522message%2522%253E%2520default%2520message%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe> 
+                        </div>
+                    </div>
+
+                    <div class="code_snippet">
+                        <div id="card">
+                            <div class="description">
+                                code for: <div class="syntax">alert</div> with styling set to <span style="color: #EF4444;font-weight:bold;">warning !</span>
+                            </div> 
+                        </div>
+                        <div class="code-snippet__container">
+                            <iframe class="code"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252Fimages%252Flogo%252Fexclamation.png%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cdiv%2520class%253D%2522message%2522%253E%2520warning%2520message%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe> 
+                        </div>
+                    </div>
+
+                    <div class="code_snippet">
+                        <div id="card">
+                            <div class="description">
+                                code for: <div class="syntax">alert</div> with styling set to <span style="color: green;font-weight:bold;">success</span>
+                            </div> 
+                        </div>
+                        <div class="code-snippet__container">
+                            <iframe class="code"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252Fimages%252Flogo%252Fcheck.png%2522%2520alt%253D%2522%2522%253E%250A%2509%253Cdiv%2520class%253D%2522message%2522%253E%2520success%2520message%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe> 
+                        </div>
+                    </div> 
+
+                    
+        
+                </div>
+
+                </div>
+            </div>
+        </div>
         
 </body>
 </html>
