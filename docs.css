@@ -42,7 +42,7 @@ body{
     align-items: center;
 }
 
-#import{
+#card{
     margin: var(--padding-md);
     font-size: 13px;
     padding:var(--padding-md);
