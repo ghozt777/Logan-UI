@@ -128,7 +128,9 @@ a{
 /* -------------------NavBar Styles-------------------- */
 
 .navbar{
-    width: 100%;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
     padding: var(--padding-md);
     display: flex;
     flex-direction: row;
