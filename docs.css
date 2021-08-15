@@ -20,6 +20,13 @@ body{
     overflow: hidden;
 }
 
+.separator{
+    width: 80%;
+    margin: auto;
+    background-color: #DDD6FE;
+    padding-top: 0.3rem;
+}
+
 .content{
     width:100%;
     display: flex;
@@ -102,7 +109,7 @@ body{
     align-items: center;
     border-style: none;
     border-radius: 1rem;
-    background-color: #93C5FD;
+    background-color: #E0E7FF;
     box-shadow: 0 8px 6px -2px #BFDBFE;
 }
 
