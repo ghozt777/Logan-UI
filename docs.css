@@ -38,6 +38,14 @@ body{
     overflow: hidden;
 }
 
+.import__container{
+    width:100%;
+    padding:var(--speed-md);
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: #818CF8;
+}
+
 .separator{
     width: 80%;
     margin: auto;
@@ -194,15 +202,23 @@ body{
     .navbar{
         border-radius: 0;
     }
+
     .sidebar_container{
         width:100%;
     }
+
+    .import__container{
+        border-width: 0.1rem;
+        border-color: #BFDBFE;
+    }
+
     .sidebar{
         border-radius: 0;;
         flex-direction: row;
         justify-content: flex-start;
         overflow-x: scroll;
     }
+
     .content{
         width: 100%;
         height: 80vh;
@@ -211,21 +227,25 @@ body{
         justify-content: flex-start;
         align-items: center;
     }
+
     .code-snippet__container{
         width: 100%;
         overflow-x: auto;
         position: relative;
         z-index: 0;
     }
+
     .code{
         width: 100%; 
         height:max-content; 
         border:0; 
         display: block;
     }
+
     a{
         font-size: 10px;
     }
+
     .sidebar_item > button > img{
         margin-right: 0.4rem;
     }
