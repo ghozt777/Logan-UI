@@ -93,21 +93,6 @@ body{
     margin-top:1rem;
 }
 
-.top-btn a > button{
-    height: 4rem;
-    font-size: 1rem;
-    margin-bottom:1rem;
-    background-color: blue;
-    transition: var(--speed-md);
-    transition-property: all;
-    cursor: pointer;
-}
-
-.top-btn a > button:hover{
-    width: 8rem;
-    background-color: #EF4444;
-}
-
 .showcase__container {
     margin-top: var(--padding-md);
     padding: var(--padding-md);
@@ -127,6 +112,15 @@ body{
 .showcase__container.alerts{
     background-color: #4c94ff;
     box-shadow: 0 8px 6px -2px #93C5FD;
+}
+
+.showcase__container.buttons{
+    background-color: #F9FAFB;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #374151;
+    box-shadow: 0 8px 6px -2px #F9FAFB;
+
 }
 
 .showcase__container .neutral-env{
@@ -157,6 +151,10 @@ body{
 .txt{
     word-spacing: 4px;
     line-height: 2;
+}
+
+.btn{
+    margin:var(--padding-sm);
 }
 
 .syntax{
