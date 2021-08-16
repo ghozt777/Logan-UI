@@ -92,6 +92,7 @@ a{
     min-height: 50px;
     min-width: 70px;
     border-radius: 0.5rem;
+    transition: var(--speed-md);
     transition-property: all;
     transition-timing-function: ease-in;
     cursor: pointer;
@@ -99,13 +100,12 @@ a{
 
 .btn:hover{
     color:#F472B6;
-    padding: var(--padding-lg);
+    /* padding: var(--padding-lg); */
 }
 
 .btn-primary{
     margin-right: var(--padding-md);
     background-color: var(--primary);
-    transition: var(--speed-fast);
 }
 
 .btn-secondary{

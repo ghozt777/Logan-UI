@@ -89,9 +89,17 @@ body{
 /*  page 2 starts here */
 
 
-.top-btn{
-    margin-top:1rem;
+.top-btn button{
+    background-color: blue;
+    transition: 300ms;
+    transition-property: all;
 }
+
+.top-btn a > button:hover{
+    padding: 0rem 4rem;
+    background-color: #EF4444;
+}
+
 
 .showcase__container {
     margin-top: var(--padding-md);
