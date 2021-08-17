@@ -214,13 +214,18 @@ body{
 @media all and (max-width: 740px){
 
     .heading{
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .caps{
+        font-size: 40px;
     }
 
     .navbar{
         border-radius: 0;
         width: 100%
     }
+
 
     .sidebar_container{
         margin: 0;
