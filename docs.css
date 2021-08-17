@@ -267,6 +267,10 @@ body{
         display: block;
     }
 
+    .code_snippet #card .description{
+        font-size: 0.6rem;
+    }
+
     a{
         font-size: 10px;
     }
