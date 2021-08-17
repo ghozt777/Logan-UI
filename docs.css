@@ -219,6 +219,7 @@ body{
 
     .navbar{
         border-radius: 0;
+        width: 100%
     }
 
     .sidebar_container{
