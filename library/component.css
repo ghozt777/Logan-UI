@@ -48,7 +48,7 @@
     --xl: 13rem;
 
     /* -------------------------alert ---------------------------------------*/
-    
+
     --alert-border-radius: 0.8rem;
 
     --alert-default-bg-color: #001f3f;
@@ -62,9 +62,53 @@
 
     --alert-default-shadow: #0074D9;
     --alert-warning-shadow: #EF4444;
-    --alert-success-shadow: #01FF70;  
+    --alert-success-shadow: #01FF70; 
+
+    /* -------------------buttons colors -----------------*/
+
+    
+    --button-bg-primary: #1F2937;
+    --button-primary-bg-hover: #4B5563;
+    
+    --button-bg-secondary: #5B21B6;
+    --button-secondary-bg-hover: #8B5CF6;
+
+    --button-bg-success: #10B981;
+    --button-success: #065F46;
+    --button-bg-success-hover: #34D399;
+    --button-success-hover: #065F46;
+    --button-success-shadow: #34D399;
+    --button-success-hover-shadow: #059669;
+
+    --button-bg-danger: #EF4444;
+    --button-danger: #f5c8c8;
+    --button-bg-danger-hover: #F87171;
+    --button-danger-hover: #DC2626; 
+    --button-danger-shadow: #e76a6a;
+    --button-danger-hover-shadow: #da3823;
+
+    --button-lg: 2rem;
+    --button-md: 1.4rem;
+    --button-sm: 0.8rem;
+
+
+    --buttons-gradient: linear-gradient(
+        45deg,
+        #845ec2,
+        #d65db1,
+        #ff6f91,
+        #ff9671,
+        #ffc75f,
+        #f9f871);
+     
 
 }
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  100% {background-position: right}
+}
+
 
 /* ======================================================================================================= */
 /* ======================================================================================================= */
@@ -92,16 +136,16 @@ a{
 /* -------------------------------------------------------------------------------------------------------- */
 
 
-/* ----------------------image Logo Style------------------------------------------------------------------ */
+/* --------------------- image Logo Style ----------------------------------------------------------------- */
 
 .img-logo {
     height: 40px;
 }
 
-/* --------------------------------------------------- ------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------*/
 
 
-/* -----------------------------------------------avatar style ----------------------------------------------*/
+/* ------------------------- avatar style -------------------------------------------------------------------*/
 .avatar__container{
     position:relative;
     width:max-content;
@@ -197,7 +241,7 @@ a{
 
 /* -------------------------------------------------------------------------------------------------------- */
 
-/* ---------------Button styles----------------------------------------- -----------------------------------*/
+/* ------------------- Button styles -----------------------------------------------------------------------*/
 
 .btn{
     border-style: none;
@@ -215,27 +259,138 @@ a{
 
 .btn:hover{
     color:#F472B6;
-    /* padding: var(--padding-lg); */
 }
 
 .btn-primary{
-    margin-right: var(--padding-md);
-    background-color: var(--primary);
-}
-
-.btn-secondary{
-    background-color: var(--secondary);
-    transition: var(--speed-fast);
+    background-color: var(--button-bg-primary);
 }
 
 .btn-primary:hover{
-    background-color: var(--primary-hover);
+    background-color: var(--button-primary-bg-hover);
+}
+
+
+.btn-secondary{
+    background-color: var(--button-bg-secondary);
 }
 
 .btn-secondary:hover{
-    background-color: var(--secondary-hover);
-
+    background-color: var(--button-secondary-bg-hover);
 }
+
+
+.btn-success{
+    background-color: var(--button-bg-success);
+    box-shadow: 0 5px 6px -2px var(--button-success-shadow); 
+    color: var(--button-success);
+}
+
+.btn-success:hover{
+    background-color: var(--button-bg-success-hover);
+    box-shadow: 0 5px 6px -2px var(--button-success-hover-shadow); 
+    color: var(--button-success-hover);
+}
+
+
+
+.btn-danger{
+    background-color: var(--button-bg-danger);
+    box-shadow: 0 5px 6px -2px var(--button-danger-shadow); 
+    color: var(--button-danger);
+}
+
+.btn-danger:hover{
+    background-color: var(--button-bg-danger-hover);
+    box-shadow: 0 5px 6px -2px var(--button-danger-hover-shadow); 
+    color: var(--button-danger-hover);
+}
+
+
+.btn-fun{
+    background-image: var(--buttons-gradient);
+    background-size: 300%;
+}
+
+.btn-fun:hover,.btn-fun:focus{
+    background-position:right;
+    color: black;
+}
+
+
+
+.btn-outline-primary{
+    border-style: solid;
+    border-width: 0.18rem;
+    border-color: var(--primary);
+    color: var(--primary);
+    background-color:white;
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--button-bg-primary);
+    color: white;
+}
+
+
+.btn-outline-secondary{
+    border-style: solid;
+    border-width: 0.18rem;
+    border-color: var(--button-bg-secondary);
+    color: var(--button-bg-secondary);
+    background-color:white;
+}
+
+.btn-outline-secondary:hover{   
+    background-color: var(--button-bg-secondary);
+    color: white;
+}
+
+.btn-outline-success{
+    border-style: solid;
+    border-width: 0.18rem;
+    border-color: var(--button-bg-success);
+    color: var(--button-bg-success);
+    background-color:white;
+    box-shadow: 0 5px 6px -2px var(--button-success-shadow); 
+}
+
+.btn-outline-success:hover{   
+    background-color: var(--button-bg-success);
+    color: white;
+    box-shadow: 0 5px 6px -2px var(--button-success-hover-shadow); 
+}
+
+
+.btn-outline-danger{
+    border-style: solid;
+    border-width: 0.18rem;
+    border-color: var(--button-bg-danger);
+    color: var(--button-bg-danger);
+    background-color:white;
+    box-shadow: 0 5px 6px -2px var(--button-danger-shadow); 
+}
+
+.btn-outline-danger:hover{   
+    background-color: var(--button-bg-danger);
+    color: white;
+    box-shadow: 0 5px 6px -2px var(--button-danger-hover-shadow); 
+}
+
+
+
+
+.btn-lg{
+    font-size: var(--button-lg);
+}
+
+.btn-md{
+    font-size: var(--button-md);
+}
+
+.btn-sm{
+    font-size: var(--button-sm);
+}
+
 
 /* ---------------------------------------------------------------------------------------------------------*/
 
@@ -299,7 +454,7 @@ a{
 
 .sidebar_container{
     z-index: 2;
-    margin: var(--padding-md);
+    margin: var(--padding-md) 0 0 var(--padding-md);
 }
 .sidebar{
     display:flex;
@@ -343,3 +498,9 @@ a{
 
 /* ---------------------------------------------------------------------------------------------------------*/
 
+.separator{
+    width: 80%;
+    margin:  2rem auto;
+    background-color: #DDD6FE;
+    padding-top: 0.3rem;
+}

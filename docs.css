@@ -4,9 +4,15 @@
     padding:0;
     box-sizing:border-box;
     scroll-behavior: smooth;
+
 }
 body{
     background-color: #EFF6FF;
+}
+
+.navbar{
+    background-color: #111827;
+    box-shadow: 0 8px 30px -2px;
 }
 
 .page{
@@ -36,21 +42,18 @@ body{
     align-items: flex-start;
     position: relative;
     overflow: hidden;
+    background-image: var(--buttons-gradient); 
+    background-size: 300%;
+    animation: bg-animation 20s infinite alternate;
 }
 
 .import__container{
     width:100%;
+    margin: 0 1rem;
     padding:var(--speed-md);
     border-style: solid;
     border-radius: 0.5rem;
-    border-color: #818CF8;
-}
-
-.separator{
-    width: 80%;
-    margin: auto;
-    background-color: #DDD6FE;
-    padding-top: 0.3rem;
+    border-color: #FDE68A;
 }
 
 .content{
@@ -133,6 +136,7 @@ body{
 .showcase__container.buttons{
     background-color: #F9FAFB;
     box-shadow: 0 8px 6px -2px #3B82F6;
+    flex-wrap: wrap;
 
 }
 
@@ -188,6 +192,23 @@ body{
     font-weight: bold;
 }
 
+
+#buttons-page .heading{
+    background-image: var(--buttons-gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 3.5rem;
+    background-size: 400%;
+    animation: bg-animation 5s infinite alternate;
+
+}
+
+.separator.buttons{
+    width: 100%;
+    background-color: #6366F1;
+    border-radius: 1rem;
+}
 
 
 @media all and (max-width: 740px){
@@ -253,5 +274,9 @@ body{
 
     .showcase__container .neutral-env{
         width: 90%;
+    }
+
+    #buttons-page .heading{
+        font-size: 2rem;
     }
 }
