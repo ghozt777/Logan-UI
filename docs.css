@@ -228,6 +228,11 @@ body{
     .import__container{
         border-width: 0.1rem;
         border-color: #BFDBFE;
+        margin-top: 2rem;
+    }
+
+    .txt{
+        font-size: 0.6rem;
     }
 
     .sidebar{
