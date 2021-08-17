@@ -155,7 +155,7 @@ body{
     flex-direction: column;
 }
 
-.demo .description-avatar{
+.demo .description-text{
     margin-top: 2rem;
     height:max-content;
     width: 100%;
