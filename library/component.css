@@ -420,8 +420,7 @@ a{
 
 .navbar{
     width: 97%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: var(--padding-md);
     display: flex;
     flex-direction: row;
