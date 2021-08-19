@@ -220,6 +220,31 @@ body{
 }
 
 
+.card-page__container{
+    height:100%;
+    width: 100%;
+    background-color: white;
+}
+
+#card-page .heading{
+    font-family: var(--txt-font-tertiary);
+    padding: 1rem 0;
+}
+
+.card-title{
+    margin-top: 1rem;
+    padding: var(--padding-md);
+    background-color:  #fdf0ee;
+    border-radius: 1rem;
+    box-shadow: 0 5px 6px -2px  #ff91a4;
+    font-family: var(--txt-font-weird);
+    font-size: 30px;
+}
+
+#card-page .code{
+    min-height: 30rem;
+}
+
 @media all and (max-width: 740px){
 
     .heading{
