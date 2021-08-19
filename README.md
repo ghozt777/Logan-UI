@@ -2,7 +2,7 @@
 
 # Logan UI
 
-![](https://lh3.googleusercontent.com/proxy/yrJ3n2BfzzsJ7WYukfpKPAZVd2DCXXDoYX64UE0pGU14xSkKC4Q4n6wnDjxc-RuyJFVhlpamgmQKBxY0EhOKZrdPVh7t0JxJrAIN-_qXaYHKe0ugyi3qjms)
+![](./images/figma-1.svg)
 
 
 ### Features
