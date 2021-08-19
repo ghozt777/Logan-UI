@@ -203,6 +203,7 @@ a{
 .alert{
     padding: var(--padding-md);
     height:max-content;
+    width: max-content;
     border-style: none;
     border-radius: var(--alert-border-radius);
     background-color: var(--alert-default-bg-color);
@@ -507,10 +508,12 @@ a{
 /* ------------------------------cards----------------------------------------------------------------------- */
 
 .card{
+    width: max-content;
     padding: 1rem 2rem;
     border-style:none;
     border-radius: 1rem;
 }
+
 /* product card */
 
 .card-product{
@@ -612,7 +615,7 @@ a{
 
     .card-product__container .card-img__container > img{
         max-height: 10rem;
-    }
+    } 
 
 } 
  
