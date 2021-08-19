@@ -2,7 +2,7 @@
 
 # Logan UI
 
-<img src = "./images/figma-1.svg" alt="logo"/>
+<img src = "./images/figma-1.svg" alt="logo" style="height: 100px"/>
 
 
 ### Features
