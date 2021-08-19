@@ -508,7 +508,6 @@ a{
 /* ------------------------------cards----------------------------------------------------------------------- */
 
 .card{
-    width: max-content;
     padding: 1rem 2rem;
     border-style:none;
     border-radius: 1rem;
