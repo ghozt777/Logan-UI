@@ -2,7 +2,7 @@
 
 # Logan UI
 
-![](images/figma-1.svg)
+![](images/figma-1.svg =100x100)
 
 
 ### Features
