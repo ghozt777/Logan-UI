@@ -245,6 +245,24 @@ body{
     min-height: 30rem;
 }
 
+#card-page #card{
+    background-color: #fffbfa;
+    box-shadow: 0 6px 6px -2px #ff91a4;
+}
+
+#card-page .highlight{
+    background-color:   #f38fa9;
+}
+
+#card-page button.top{
+    background-color:#f03c9c ;
+    box-shadow: 0 4px 6px -2px #f1188c;
+}
+
+#card-page button.top:hover{
+    background-color: #ec61ab  ;
+}
+
 @media all and (max-width: 740px){
 
     .heading{
