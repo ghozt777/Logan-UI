@@ -2,7 +2,7 @@
 
 # Logan UI
 
-![](images/figma-1.svg){height: 200px;}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/160px-Figma-logo.svg.png)
 
 
 ### Features
